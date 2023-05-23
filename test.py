@@ -91,7 +91,7 @@ while cap.isOpened():
             
             if time.time() - start_time >= 0.5 :
                 if this_action == previous_action == 'swipe' :
-                    pyautogui.hotkey("command", "tab")
+                    pyautogui.hotkey("alt", "tab")
                 previous_action = this_action          
                 print(this_action)
                 print(previous_action)
